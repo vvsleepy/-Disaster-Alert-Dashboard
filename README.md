@@ -1,4 +1,3 @@
-# -Disaster-Alert-Dashboard
 # Disaster Alert Dashboard
 
 ## Purpose
@@ -46,9 +45,6 @@ To use the Disaster Alert Dashboard locally:
 2. **Search by Location**: Enter a location in the search box and click the "Search" button to see recent earthquakes within a 500km radius of that location.
 3. **Interactive Map**: The map shows disaster relief centers and earthquake locations. Click on a marker to get more details.
 
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - **USGS Earthquake API**: For providing earthquake data.
