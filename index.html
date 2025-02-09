@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Alert Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTbqcb0A7TuiG9UF4IbiV4dSKWmrnAsxU&libraries=geocoding"></script>
+</head>
+<body>
+    <header>
+        <h1>Disaster Alert Dashboard</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search by location...">
+            <button onclick="searchRegion()">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="dashboard-container">
+            <section class="alerts-section">
+                <h2>Recent Earthquakes</h2>
+                <div id="alerts-container"></div>
+            </section>
+            
+            <section class="map-section">
+                <h2>Help Centers Map</h2>
+                <div id="map"></div>
+            </section>
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+    </main>
+
+    <footer>
+        <p>Data provided by USGS Earthquake API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
